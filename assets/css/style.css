@@ -71,8 +71,13 @@ nav {
   justify-content: space-between;
   margin-bottom: 100px;
 }
+.influencer__big__border{
+  border: 10px solid #F1E4FF;
+  border-radius: 50%;
+  padding: 30px;
+}
 .influencer__content {
-  width: 60%;
+  width: 50%;
 }
 .influencer__title {
   font-weight: 700;
@@ -109,8 +114,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 1px solid #f1e4ffcb;
+  border-bottom: 1px solid #f1e4ffcb;
   padding: 40px;
   margin-bottom: 100px;
 }
