@@ -4,13 +4,214 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Super Shop</title>
+    <title>Influencer products</title>
     <!-- Favicon Icon -->
     <link rel="shortcut icon" href="assets/img/Logo/favicon.ico" type="image/x-icon">
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
     <!-- StyleSheet -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive Css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    
 </head>
 <body>
-    
+    <header >
+        <nav class="container">
+            <div class="nav__burger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="nav__title">
+                <h2 class="nav__title__name">Influencer Products</h2>
+            </div>
+            <div class="nav__content">
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#signup">Sign Up</a>
+                <a href="#login">Log In</a>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="influencer container">
+            <div class="influencer__content">
+                <h1 class="influencer__title">Start your Journey as Influencer</h1>
+                <p class="influencer__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sint aliquid dolores praesentium nulla ipsam doloribus est aliquam dignissimos aspernatur?</p>
+                <button class="influencer__btn">Preebook Now  <i class="fa-solid fa-arrow-right-long"></i></button>
+            </div>
+            <div class="influencer__img">
+                <img src="assets/img/Product/main-camera.png" alt="Main Camera" class="influencer__cam__img">
+            </div>
+        </section>
+        <section class="company container">
+            <img src="assets/img/Logo/Alibaba.svg" alt="Alibaba" class="company__item">
+            <img src="assets/img/Logo/Amazon.svg" alt="Amazon" class="company__item">
+            <img src="assets/img/Logo/Daraz.pk Logo.svg" alt="Daraz" class="company__item">
+            <img src="assets/img/Logo/Ebay.svg" alt="Ebay" class="company__item">
+            <img src="assets/img/Logo/Rakuten.svg" alt="Rakhuten" class="company__item">
+            <img src="assets/img/Logo/Target.svg" alt="Target" class="company__item">
+            <img src="assets/img/Logo/Walmart.svg" alt="Walmart" class="company__item">
+        </section>
+        <section id="products" class="container">
+            <h2 class="products__title">Popular Products</h2>
+            <div class="products__list">
+                <article class="product">
+                    <img src="assets/img/Product/action.png" alt="Action Camera" class="product__img">
+                    <h3 class="product__title">Action Camera</h3>
+                    <h3 class="product__price">$380.00</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <span>4.99</span>
+                    <h4 class="product__shifting">Wordwide shifting</h4>
+                    <h4 class="product__availibility">available</h4>
+                    <h4 class="product__protection">Buyer Protection Possible</h4>
+                </article>
+                <article class="product">
+                    <img src="assets/img/Product/airpod.png" alt="Airbuds" class="product__img">
+                    <h3 class="product__title">Airbuds</h3>
+                    <h3 class="product__price">$100.00</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <span>4.99</span>
+                    <h4 class="product__shifting">Wordwide shifting</h4>
+                    <h4 class="product__availibility">available</h4>
+                    <h4 class="product__protection">Buyer Protection Possible</h4>
+                </article>
+                <article class="product">
+                    <img src="assets/img/Product/camera.png" alt="Vloggin Camer" class="product__img">
+                    <h3 class="product__title">Vlogging Camera</h3>
+                    <h3 class="product__price">$1800.80</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <span>4.99</span>
+                    <h4 class="product__shifting">Wordwide shifting</h4>
+                    <h4 class="product__availibility">available</h4>
+                    <h4 class="product__protection">Buyer Protection Possible</h4>
+                </article>
+                <article class="product">
+                    <img src="assets/img/Product/drone.png" alt="Drone" class="product__img">
+                    <h3 class="product__title">Drone</h3>
+                    <h3 class="product__price">$980.25</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <span>4.99</span>
+                    <h4 class="product__shifting">Wordwide shifting</h4>
+                    <h4 class="product__availibility">available</h4>
+                    <h4 class="product__protection">Buyer Protection Possible</h4>
+                </article>
+                <article class="product">
+                    <img src="assets/img/Product/single-light.png" alt="Green Screen" class="product__img">
+                    <h3 class="product__title">Green Screen</h3>
+                    <h3 class="product__price">$25.48</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <span>4.99</span>
+                    <h4 class="product__shifting">Wordwide shifting</h4>
+                    <h4 class="product__availibility">available</h4>
+                    <h4 class="product__protection">Buyer Protection Possible</h4>
+                </article>
+                <article class="product">
+                    <img src="assets/img/Product/lights.png" alt="regular Setup" class="product__img">
+                    <h3 class="product__title">regular Setup</h3>
+                    <h3 class="product__price">$1200.00</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <span>4.99</span>
+                    <h4 class="product__shifting">Wordwide shifting</h4>
+                    <h4 class="product__availibility">available</h4>
+                    <h4 class="product__protection">Buyer Protection Possible</h4>
+                </article>
+                <article class="product">
+                    <img src="assets/img/Product/tripod.png" alt="Flex Tripod" class="product__img">
+                    <h3 class="product__title">Flex Tripod</h3>
+                    <h3 class="product__price">$50.48</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <span>4.99</span>
+                    <h4 class="product__shifting">Wordwide shifting</h4>
+                    <h4 class="product__availibility">available</h4>
+                    <h4 class="product__protection">Buyer Protection Possible</h4>
+                </article>
+                <article class="product">
+                    <img src="assets/img/Product/mic.png" alt="microphone" class="product__img">
+                    <h3 class="product__title">Microphone</h3>
+                    <h3 class="product__price">$120.25</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <span>4.99</span>
+                    <h4 class="product__shifting">Wordwide shifting</h4>
+                    <h4 class="product__availibility">available</h4>
+                    <h4 class="product__protection">Buyer Protection Possible</h4>
+                </article>
+                <article class="product">
+                    <img src="assets/img/Product/setup.png" alt="Photoshoot set" class="product__img">
+                    <h3 class="product__title">Photoshoot set</h3>
+                    <h3 class="product__price">$820.40</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <span>4.99</span>
+                    <h4 class="product__shifting">Wordwide shifting</h4>
+                    <h4 class="product__availibility">available</h4>
+                    <h4 class="product__protection">Buyer Protection Possible</h4>
+                </article>
+            </div>
+            <span class="more__products">See More <i class="fa-solid fa-arrow-right-long"></i></span>
+        </section>
+        <section class="features container">
+            <div class="featured__img">
+                <img src="assets/img/Product/gear.png" alt="Featured Image" class="feature__img">
+            </div>
+            <div class="featured__content">
+                <h2 class="featured__title">Featured products at one place</h2>
+                <p class="featured__details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero temporibus magnam facilis facere, cupiditate dolor est consequuntur ab dolorem. Odit omnis accusantium dolore corrupti ut! Quam ipsum quaerat unde impedit.</p>
+                <button class="featured__btn">Join Now  <i class="fa-solid fa-arrow-right-long"></i></button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__content container">
+            <h2 class="footer__title">Influencer products</h2>
+            <p class="copyrights">Copyright © 2020  influencer products <br>All rights reserved</p>
+            <div class="social__icon">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-dribbble"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
